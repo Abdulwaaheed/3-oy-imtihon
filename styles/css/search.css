@@ -1,0 +1,55 @@
+.navbar {
+  height: 70px;
+  border-bottom: 1px solid black;
+  padding: 10px;
+  top: 0;
+  right: 100px;
+  left: 100px;
+  background-color: #fff;
+}
+.navbar a {
+  color: inherit;
+  text-decoration: none;
+}
+.navbar .nav-links {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  align-items: center;
+  gap: 30px;
+}
+
+.section_search {
+  margin-top: 70px;
+  width: 100%;
+}
+.section_search .section_form {
+  height: 100px;
+  width: 100%;
+}
+.section_search .section_form #search {
+  margin-top: 80px;
+  width: 100%;
+  height: 40px;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+.section_search .section-down {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  gap: 20px;
+}
+.section_search .section-down .card {
+  width: 280px;
+  height: 350px;
+  border: 1px solid grey;
+}
+
+footer {
+  margin-top: 40px;
+}
+footer .footer-bottom {
+  height: 100px;
+}/*# sourceMappingURL=search.css.map */

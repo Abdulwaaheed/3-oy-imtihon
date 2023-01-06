@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header {
+  width: 100%;
+  height: 700px;
+}
+.header .top .navbar {
+  height: 70px;
+  border-bottom: 1px solid black;
+  padding: 10px;
+  top: 0;
+  right: 100px;
+  left: 100px;
+  background-color: #fff;
+}
+.header .top .navbar a {
+  color: inherit;
+  text-decoration: none;
+}
+.header .top .navbar .nav-links {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  align-items: center;
+  gap: 30px;
+}
+.header .bottom {
+  margin-top: 100px;
+  height: 600px;
+}
+.header .bottom .left {
+  width: 30%;
+}
+.header .bottom .left h1 {
+  font-size: 80px;
+  font-weight: 100;
+}
+.header .bottom .left .btn {
+  width: 30%;
+}
+.header .bottom .left .btn:active {
+  background-color: black;
+}
+.header .bottom .right {
+  margin-top: 50px;
+}
+.header .bottom .right img {
+  margin-left: 150px;
+  width: 500px;
+}
+.header .homiy {
+  width: 100%;
+  height: 200px;
+  margin-top: 130px;
+}
+.header .homiy img {
+  height: 200px;
+  width: 200px;
+}
+
+#premium {
+  height: 500px;
+}
+#premium .premium-bottom {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#newProduct {
+  display: grid;
+  height: 750px;
+  width: 100%;
+}
+#newProduct h1 {
+  height: 40px;
+}
+#newProduct .product-bottom {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 30px;
+}
+#newProduct .product-bottom .middle {
+  width: 250px;
+  height: 350px;
+  background-color: orange;
+}
+
+#seller {
+  height: 400px;
+  width: 100%;
+}
+#seller .seller-bottom {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+#seller .seller-bottom .card {
+  width: 270px;
+  height: 350px;
+}
+
+.footer-bottom {
+  height: 70px;
+}/*# sourceMappingURL=coral.css.map */

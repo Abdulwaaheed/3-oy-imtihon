@@ -1,0 +1,22 @@
+#newProduct{
+    display: grid;
+    height: 750px;
+    width: 100%;
+    h1{
+        height: 40px;
+        // background-color: blue;
+    }
+   .product-bottom{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 30px;
+
+    .middle{
+        width: 250px;
+        height: 350px;
+        background-color: orange;
+    } 
+   }
+}
